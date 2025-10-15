@@ -32,6 +32,12 @@ When creating a new issue, please provide as much detail as possible:
 
 ## Code of Conduct
 
-Please be respectful and constructive in all interactions.
+We are committed to providing a welcoming and inclusive environment. All contributors are expected to:
+- Be respectful and considerate in communication
+- Accept constructive criticism gracefully
+- Focus on what is best for the community
+- Show empathy towards others
+
+Please report any unacceptable behavior by opening an issue or contacting the maintainers.
 
 Thank you for contributing!
