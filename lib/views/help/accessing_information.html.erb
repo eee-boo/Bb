@@ -73,10 +73,15 @@
       If you're having trouble accessing information or have questions about this process,
       please contact our support team:
     </p>
+    <%
+      contact_email = support_email || 'support@example.com'
+      contact_phone = support_phone || '1-800-123-4567'
+      contact_hours = support_hours || 'Monday - Friday, 9:00 AM - 5:00 PM'
+    %>
     <ul>
-      <li>Email: <%= link_to support_email || 'support@example.com', "mailto:#{support_email || 'support@example.com'}" %></li>
-      <li>Phone: <%= support_phone || '1-800-123-4567' %></li>
-      <li>Hours: <%= support_hours || 'Monday - Friday, 9:00 AM - 5:00 PM' %></li>
+      <li>Email: <%= link_to contact_email, "mailto:#{contact_email}" %></li>
+      <li>Phone: <%= contact_phone %></li>
+      <li>Hours: <%= contact_hours %></li>
     </ul>
   </section>
 </div>
