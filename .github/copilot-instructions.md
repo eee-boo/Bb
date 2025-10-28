@@ -7,7 +7,7 @@ This is a simple static website repository originally forked from GitHub's Spoon
 - `index.html` - Main HTML page for the website
 - `styles.css` - CSS stylesheet for the website
 - `README.md` - Repository documentation explaining forking
-- `family-court-dismissal-order.md` - Legal document example
+- `family-court-dismissal-order.md` - Example/test document content
 - `test.md` - Simple test document
 
 ## Code Conventions
@@ -17,7 +17,7 @@ This is a simple static website repository originally forked from GitHub's Spoon
 - Include proper meta tags in the head section
 - Use semantic HTML where appropriate
 - Keep indentation consistent (2 spaces)
-- Use lowercase for HTML tags and attributes
+- Prefer lowercase for HTML tags and attributes (note: existing code has some uppercase tags like `<LINK>` - maintain consistency with the file you're editing)
 
 ### CSS
 - Use consistent indentation (2 spaces)
