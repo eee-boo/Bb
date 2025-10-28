@@ -19,7 +19,7 @@ This is a basic HTML/CSS website project that serves as a practice repository fo
 
 ### CSS
 - Use clear, descriptive selector names
-- Maintain consistent spacing (no margins/padding reset is in place)
+- Maintain consistent spacing (a basic CSS reset with zero margins/padding is applied via the `*` selector)
 - Keep styles organized and commented when necessary
 - Use shorthand properties where appropriate
 
