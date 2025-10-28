@@ -74,9 +74,9 @@
       please contact our support team:
     </p>
     <ul>
-      <li>Email: <%= link_to 'support@example.com', 'mailto:support@example.com' %></li>
-      <li>Phone: 1-800-123-4567</li>
-      <li>Hours: Monday - Friday, 9:00 AM - 5:00 PM</li>
+      <li>Email: <%= link_to support_email || 'support@example.com', "mailto:#{support_email || 'support@example.com'}" %></li>
+      <li>Phone: <%= support_phone || '1-800-123-4567' %></li>
+      <li>Hours: <%= support_hours || 'Monday - Friday, 9:00 AM - 5:00 PM' %></li>
     </ul>
   </section>
 </div>
